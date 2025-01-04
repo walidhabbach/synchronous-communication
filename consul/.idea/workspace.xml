@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58be9d6b-e0ff-4563-b328-6dea9c68898d" name="Changes" comment="" />
+    <list default="true" id="58be9d6b-e0ff-4563-b328-6dea9c68898d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/services/CarFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/services/CarWebClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/group/client/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/group/client/controllers/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/group/client/entities/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/group/client/repositories/ClientRepositroy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/org/group/client/services/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/group/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/group/gateway/config/CrosConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/ma/projet/gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/VoitureApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/controllers/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/entities/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/entities/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/feign/ClientServiceFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/models/CarResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/repositories/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/java/org/group/voiture/services/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiture/src/test/java/org/group/voiture/VoitureApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/eureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/voiture/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/VoitureApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/VoitureApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/controllers/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/controllers/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/models/CarResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/models/CarResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/services/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery_eureka/voiture/src/main/java/org/group/voiture/services/CarRestTemplateService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +84,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -65,7 +123,7 @@
     "Spring Boot.VoitureApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/MT/Documents/Github/java/Etude_de_cas_2/consul",
+    "last_opened_file_path": "C:/Users/MT/Documents/Github/java/Etude_de_cas_2/discovery_consul",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +151,6 @@
       <set>
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
@@ -102,6 +159,17 @@
       <module name="config-service" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,6 +244,8 @@
       <workItem from="1735391023289" duration="604000" />
       <workItem from="1735927731760" duration="2459000" />
       <workItem from="1735930248584" duration="3918000" />
+      <workItem from="1735999187532" duration="124000" />
+      <workItem from="1735999331942" duration="71000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,9 @@
 package org.group.voiture.controllers;
 
-import org.group.voiture.entities.Client;
-import org.group.voiture.feign.ClientServiceFeignClient;
 import  org.group.voiture.models.CarResponse;
-import org.group.voiture.services.CarService;
+import org.group.voiture.services.CarFeignService;
+import org.group.voiture.services.CarRestTemplateService;
+import org.group.voiture.services.CarWebClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,25 +17,38 @@ import java.util.List;
 public class CarController {
 
     @Autowired
-    private CarService carService;
+    private CarRestTemplateService carRestTemplateService;
+    @Autowired
+    private CarWebClientService carWebClientService;
+    @Autowired
+    private CarFeignService carFeignService;
 
-    @GetMapping("/restTemplate/all")
+    @GetMapping("/rest-template/all")
     public List<CarResponse> findAll() {
-        return carService.findAllRestTemplate ();
+        return carRestTemplateService.findAll ();
     }
 
-    @GetMapping("/restTemplate/{id}")
+    @GetMapping("/rest-template/{id}")
     public CarResponse findById(@PathVariable Long id) throws Exception {
-        return carService.findByIdRestTemplate (id);
+        return carRestTemplateService.findById (id);
     }
 
-    @GetMapping("/feignClient/all")
+    @GetMapping("/feign/all")
     public List<CarResponse> findAllFeignClient() {
-        return carService.findAllFeignClient ();
+        return carFeignService.findAll ();
     }
 
-    @GetMapping("/feignClient/{id}")
+    @GetMapping("/feign/{id}")
     public CarResponse findByIdFeignClient(@PathVariable Long id) throws Exception{
-        return carService.findByIdFeignClient (id);
+        return carFeignService.findById (id);
+    }
+    @GetMapping("/webclient/all")
+    public List<CarResponse> findAllWebClient() {
+        return carWebClientService.findAll ();
+    }
+
+    @GetMapping("/webclient/{id}")
+    public CarResponse findByIdWebClient(@PathVariable Long id) throws Exception{
+        return carWebClientService.findById (id);
     }
 }

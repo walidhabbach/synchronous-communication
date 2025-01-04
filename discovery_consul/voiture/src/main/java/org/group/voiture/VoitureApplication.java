@@ -19,16 +19,7 @@ public class VoitureApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VoitureApplication.class, args);
 	}
-	@Bean
-	public RestTemplate restTemplate() {
-		RestTemplate restTemplate = new RestTemplate();
-		SimpleClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
-		requestFactory.setConnectTimeout(5000);
-		requestFactory.setReadTimeout(5000);
-		restTemplate.setRequestFactory(requestFactory);
 
-		return restTemplate;
-	}
 	@Bean
 	CommandLineRunner initializeH2Database(CarRepository carRepository) {
 		return args -> {
