@@ -3,3 +3,6 @@ consul.exe
 consul/.idea/workspace.xml
 consul/.idea/workspace.xml
 /consul/.idea
+grafana-v11.4.0
+prometheus-3.1.0.windows-amd64
+
